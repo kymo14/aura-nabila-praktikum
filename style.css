@@ -1,0 +1,90 @@
+body{
+    font-family: 'roboto', Arial, sans-serif;
+    color: #000;
+    background-color: #f5f5f5;
+}
+
+.judul{
+    background: #b12765;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.judul h1,
+.judul h2,
+.judul h3{
+    margin: 15px;
+    height: 25px;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a.tombol{
+    background: #b12765;
+    padding: 8px 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    background: #fff;
+}
+
+.table th,
+.table td{
+    border: 1px solid #000;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.table th{
+    background: #b12765;
+}
+
+table{
+    background: #fff;
+}
+
+table td{
+    padding: 8px;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+textarea,
+select{
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background: #b12765;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background: #b43f74;
+}
+
+.edit{
+    color: blue;
+}
+
+.hapus{
+    color: red;
+}
